@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root {
+  --background: #F9F8F6;
+  --foreground: #292524;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans, Arial, Helvetica, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(168, 162, 158, 0.3); border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(168, 162, 158, 0.5); }
+
+/* ── Paper card ── */
+.paper-card {
+  background: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.06);
+  border: 1px solid #e7e5e4;
+  border-radius: 0.75rem;
+}
+
+/* ── Paper texture ── */
+.paper-texture {
+  background-color: #F9F8F6;
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(217, 119, 6, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(5, 150, 105, 0.03) 0%, transparent 50%);
+}
+
+/* ── Hand-drawn border ── */
+.hand-drawn {
+  border-radius: 0.5rem 0.75rem 0.5rem 0.75rem;
+}
+
+/* ── Letter paper ── */
+.letter-paper {
+  background: linear-gradient(to bottom, #fefcf9 0%, #faf8f5 100%);
+  border: 1px solid #e7e5e4;
+  border-radius: 0.75rem;
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.04),
+    0 4px 12px rgba(0, 0, 0, 0.03),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* ── Animations ── */
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in-up { animation: fade-in-up 0.5s ease-out forwards; }
+
+@keyframes gentle-pulse {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 1; }
+}
+.animate-gentle-pulse { animation: gentle-pulse 3s ease-in-out infinite; }

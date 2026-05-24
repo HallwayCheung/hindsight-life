@@ -1,0 +1,52 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest apps/web --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --use-npm)",
+      "Bash(npm install *)",
+      "Bash(npx shadcn@latest init -d)",
+      "Bash(node -e \"console.log\\(process.cwd\\(\\)\\)\")",
+      "Bash(node -e \"const path = require\\('path'\\); console.log\\(require.resolve\\('class-variance-authority', {paths: ['/Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web']}\\)\\)\")",
+      "Bash(python3 -m venv /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/api/venv)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/api/venv/bin/pip install *)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/api/venv/bin/python -c \"import sys; sys.path.insert\\(0, '.'\\); from main import app; print\\('FastAPI app loaded successfully'\\)\")",
+      "Bash(npm run *)",
+      "Bash(kill 42181 42574 42689)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/api/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000)",
+      "Bash(curl -s http://localhost:8000/api/health)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/api/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000 --app-dir /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/api)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npx next *)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/.bin/next dev *)",
+      "Bash(echo \"PID: $!\")",
+      "Read(//tmp/**)",
+      "Bash(npx next dev -p 3000 > /tmp/next-dev.log 2>&1 & *)",
+      "Read(//private/tmp/**)",
+      "Bash(bash -c 'npx next dev -p 3000 > /tmp/next-dev.log 2>&1')",
+      "Bash(chmod +x /Users/hallwaycheung/Documents/vibe_coding/Hindsight/start-dev.sh)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/start-dev.sh)",
+      "Bash(ln -sf /Users/hallwaycheung/Documents/vibe_coding/Hindsight/node_modules/@radix-ui /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/@radix-ui)",
+      "Bash(ln -sf /Users/hallwaycheung/Documents/vibe_coding/Hindsight/node_modules/class-variance-authority /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/class-variance-authority)",
+      "Bash(ln -sf /Users/hallwaycheung/Documents/vibe_coding/Hindsight/node_modules/lucide-react /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/lucide-react)",
+      "Bash(ln -s /Users/hallwaycheung/Documents/vibe_coding/Hindsight/node_modules/@radix-ui /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/@radix-ui)",
+      "Bash(ln -s /Users/hallwaycheung/Documents/vibe_coding/Hindsight/node_modules/class-variance-authority /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/class-variance-authority)",
+      "Bash(ln -s /Users/hallwaycheung/Documents/vibe_coding/Hindsight/node_modules/lucide-react /Users/hallwaycheung/Documents/vibe_coding/Hindsight/apps/web/node_modules/lucide-react)",
+      "Bash(chmod +x /Users/hallwaycheung/Documents/vibe_coding/Hindsight/install-deps.sh)",
+      "Bash(/Users/hallwaycheung/Documents/vibe_coding/Hindsight/install-deps.sh)",
+      "Bash(curl -s -X POST http://localhost:8000/api/simulation/start -H 'Content-Type: application/json' -d '{\"scenario\":{\"choice_point\":\"2020年放弃了创业机会\",\"time_node\":\"2020-03\",\"alternative\":\"和朋友一起做在线教育平台\",\"current_state\":\"在国企做行政，月薪6k，稳定但无聊\"}}')",
+      "Bash(curl -s -N http://localhost:8000/api/simulation/258489eb897d498c/stream)",
+      "Bash(kill %1)",
+      "Bash(curl -s -N --max-time 8 http://localhost:8000/api/simulation/258489eb897d498c/stream)",
+      "Bash(curl -s -N --max-time 120 http://localhost:8000/api/simulation/10a5868306b242cb/stream)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:8000/api/health)",
+      "Bash(gh auth *)",
+      "Bash(rm -rf .git)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git add *)"
+    ],
+    "additionalDirectories": [
+      "/private/tmp"
+    ]
+  }
+}
