@@ -24,9 +24,8 @@
 
 <br/>
 
-<!-- HERO SCREENSHOT — 替换为实际截图 -->
 <p>
-  <em>在下方放置首页截图或 GIF 演示</em>
+  <img src="docs/screenshots/01-input-form.png" alt="Hindsight 输入界面" width="800" />
 </p>
 
 </div>
@@ -69,52 +68,51 @@
 
 ### 输入表单 — 填写你的人生遗憾
 
-<!-- 替换为实际截图 -->
 ![输入表单](docs/screenshots/01-input-form.png)
 
 > 温暖的填空式输入，像在写一封给自己的信。
 
 ### Agent 控制台 — 实时观看推演过程
 
-<!-- 替换为实际截图 -->
 ![Agent 控制台](docs/screenshots/02-agent-console.png)
 
 > 6 个 Agent 依次启动，SSE 实时推送进度，每个 Agent 都有自己的状态和颜色。
 
 ### 灵魂摘要
 
-<!-- 替换为实际截图 -->
 ![灵魂摘要](docs/screenshots/03-soul-summary.png)
 
 > 一段温暖而深刻的洞察，像灵魂的低语。
 
 ### 情感电量
 
-<!-- 替换为实际截图 -->
 ![情感电量](docs/screenshots/04-emotional-battery.png)
 
 > 快乐电量、遗憾指数、内心平静度——用感性的方式量化两条时间线的情感差异。
 
 ### 命运节点
 
-<!-- 替换为实际截图 -->
 ![命运节点](docs/screenshots/05-timeline-cards.png)
 
 > 每个关键年份，现实与平行宇宙的对比。底部是诗意的分歧点标注。
 
 ### 平行纪念品
 
-<!-- 替换为实际截图 -->
 ![平行纪念品](docs/screenshots/06-souvenir.png)
 
 > 来自平行宇宙的一件小物件，承载着另一条人生的故事。
 
 ### 来自平行宇宙的信
 
-<!-- 替换为实际截图 -->
 ![未来信件](docs/screenshots/07-future-letter.png)
 
 > 那个做出了另一个选择的你，写给现在的你。这是整个推演中最温暖的时刻。
+
+### 移动端适配
+
+![移动端](docs/screenshots/08-mobile-view.png)
+
+> 完整的移动端响应式设计，在手机上也能获得沉浸式的阅读体验。
 
 ---
 
